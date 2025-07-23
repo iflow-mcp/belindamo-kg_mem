@@ -1,0 +1,793 @@
+{
+  "entities": [
+    {
+      "name": "How do I deploy my React app to AWS?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493962"
+    },
+    {
+      "name": "What about using Docker for containerization?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493982"
+    },
+    {
+      "name": "Can you explain the CI/CD pipeline setup?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493987"
+    },
+    {
+      "name": "I'm having issues with authentication in my Python Flask API",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493991"
+    },
+    {
+      "name": "Should I use JWT tokens or session cookies?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493994"
+    },
+    {
+      "name": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.493997"
+    },
+    {
+      "name": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.493999"
+    },
+    {
+      "name": "For CI/CD, you can use GitHub Actions with AWS CodePipeline integration",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494002"
+    },
+    {
+      "name": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494004"
+    },
+    {
+      "name": "JWT tokens are stateless and better for distributed systems, while cookies work well for traditional web apps",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494007"
+    },
+    {
+      "name": "React",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494008"
+    },
+    {
+      "name": "AWS",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494009"
+    },
+    {
+      "name": "Deployment",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494017"
+    },
+    {
+      "name": "Docker",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494010"
+    },
+    {
+      "name": "Containerization",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494016"
+    },
+    {
+      "name": "CI/CD",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494012"
+    },
+    {
+      "name": "Authentication",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494014"
+    },
+    {
+      "name": "Flask",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494013"
+    },
+    {
+      "name": "JWT",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494015"
+    },
+    {
+      "name": "React",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494008"
+    },
+    {
+      "name": "AWS",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494009"
+    },
+    {
+      "name": "Docker",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494010"
+    },
+    {
+      "name": "Containerization",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494016"
+    },
+    {
+      "name": "CI/CD",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494012"
+    },
+    {
+      "name": "Flask",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494013"
+    },
+    {
+      "name": "Authentication",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494014"
+    },
+    {
+      "name": "JWT",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494015"
+    },
+    {
+      "name": "React",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494008"
+    },
+    {
+      "name": "AWS",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494009"
+    },
+    {
+      "name": "Docker",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494010"
+    },
+    {
+      "name": "Docker",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494010"
+    },
+    {
+      "name": "CI/CD",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494012"
+    },
+    {
+      "name": "Flask",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494013"
+    },
+    {
+      "name": "JWT",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494015"
+    },
+    {
+      "name": "Session_001_ProjectDiscussion",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493935"
+    },
+    {
+      "name": "Session_001_ProjectDiscussion",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493935"
+    },
+    {
+      "name": "Session_001_ProjectDiscussion",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493935"
+    },
+    {
+      "name": "Session_002_TechnicalSupport",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493956"
+    },
+    {
+      "name": "Session_002_TechnicalSupport",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493956"
+    },
+    {
+      "name": "Session_001_ProjectDiscussion",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493935"
+    },
+    {
+      "name": "Session_001_ProjectDiscussion",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493935"
+    },
+    {
+      "name": "Session_001_ProjectDiscussion",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493935"
+    },
+    {
+      "name": "Session_002_TechnicalSupport",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493956"
+    },
+    {
+      "name": "Session_002_TechnicalSupport",
+      "type": "Session",
+      "created_at": "2025-07-23T16:54:07.493956"
+    },
+    {
+      "name": "How do I deploy my React app to AWS?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493962"
+    },
+    {
+      "name": "How do I deploy my React app to AWS?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493962"
+    },
+    {
+      "name": "How do I deploy my React app to AWS?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493962"
+    },
+    {
+      "name": "What about using Docker for containerization?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493982"
+    },
+    {
+      "name": "What about using Docker for containerization?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493982"
+    },
+    {
+      "name": "Can you explain the CI/CD pipeline setup?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493987"
+    },
+    {
+      "name": "I'm having issues with authentication in my Python Flask API",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493991"
+    },
+    {
+      "name": "I'm having issues with authentication in my Python Flask API",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493991"
+    },
+    {
+      "name": "Should I use JWT tokens or session cookies?",
+      "type": "UserMessage",
+      "created_at": "2025-07-23T16:54:07.493994"
+    },
+    {
+      "name": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.493997"
+    },
+    {
+      "name": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.493997"
+    },
+    {
+      "name": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.493999"
+    },
+    {
+      "name": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.493999"
+    },
+    {
+      "name": "For CI/CD, you can use GitHub Actions with AWS CodePipeline integration",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494002"
+    },
+    {
+      "name": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494004"
+    },
+    {
+      "name": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494004"
+    },
+    {
+      "name": "JWT tokens are stateless and better for distributed systems, while cookies work well for traditional web apps",
+      "type": "AgentMessage",
+      "created_at": "2025-07-23T16:54:07.494007"
+    },
+    {
+      "name": "Deployment",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494017"
+    },
+    {
+      "name": "Deployment",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494017"
+    },
+    {
+      "name": "Containerization",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494016"
+    },
+    {
+      "name": "Deployment",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494017"
+    },
+    {
+      "name": "Deployment",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494017"
+    },
+    {
+      "name": "Authentication",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494014"
+    },
+    {
+      "name": "Authentication",
+      "type": "SemanticEntity",
+      "created_at": "2025-07-23T16:54:07.494014"
+    }
+  ],
+  "relations": [
+    {
+      "entity0": {
+        "name": "How do I deploy my React app to AWS?",
+        "type": "UserMessage"
+      },
+      "entity1": {
+        "name": "Session_001_ProjectDiscussion",
+        "type": "Session"
+      },
+      "relation": "How do I deploy my React app to AWS? was sent in Session_001_ProjectDiscussion",
+      "type": "user_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494022"
+    },
+    {
+      "entity0": {
+        "name": "What about using Docker for containerization?",
+        "type": "UserMessage"
+      },
+      "entity1": {
+        "name": "Session_001_ProjectDiscussion",
+        "type": "Session"
+      },
+      "relation": "What about using Docker for containerization? was sent in Session_001_ProjectDiscussion",
+      "type": "user_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494024"
+    },
+    {
+      "entity0": {
+        "name": "Can you explain the CI/CD pipeline setup?",
+        "type": "UserMessage"
+      },
+      "entity1": {
+        "name": "Session_001_ProjectDiscussion",
+        "type": "Session"
+      },
+      "relation": "Can you explain the CI/CD pipeline setup? was sent in Session_001_ProjectDiscussion",
+      "type": "user_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494025"
+    },
+    {
+      "entity0": {
+        "name": "I'm having issues with authentication in my Python Flask API",
+        "type": "UserMessage"
+      },
+      "entity1": {
+        "name": "Session_002_TechnicalSupport",
+        "type": "Session"
+      },
+      "relation": "I'm having issues with authentication in my Python Flask API was sent in Session_002_TechnicalSupport",
+      "type": "user_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494026"
+    },
+    {
+      "entity0": {
+        "name": "Should I use JWT tokens or session cookies?",
+        "type": "UserMessage"
+      },
+      "entity1": {
+        "name": "Session_002_TechnicalSupport",
+        "type": "Session"
+      },
+      "relation": "Should I use JWT tokens or session cookies? was sent in Session_002_TechnicalSupport",
+      "type": "user_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494027"
+    },
+    {
+      "entity0": {
+        "name": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+        "type": "AgentMessage"
+      },
+      "entity1": {
+        "name": "Session_001_ProjectDiscussion",
+        "type": "Session"
+      },
+      "relation": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront was sent in Session_001_ProjectDiscussion",
+      "type": "agent_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494032"
+    },
+    {
+      "entity0": {
+        "name": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+        "type": "AgentMessage"
+      },
+      "entity1": {
+        "name": "Session_001_ProjectDiscussion",
+        "type": "Session"
+      },
+      "relation": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image was sent in Session_001_ProjectDiscussion",
+      "type": "agent_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494035"
+    },
+    {
+      "entity0": {
+        "name": "For CI/CD, you can use GitHub Actions with AWS CodePipeline integration",
+        "type": "AgentMessage"
+      },
+      "entity1": {
+        "name": "Session_001_ProjectDiscussion",
+        "type": "Session"
+      },
+      "relation": "For CI/CD, you can use GitHub Actions with AWS CodePipeline integration was sent in Session_001_ProjectDiscussion",
+      "type": "agent_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494038"
+    },
+    {
+      "entity0": {
+        "name": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+        "type": "AgentMessage"
+      },
+      "entity1": {
+        "name": "Session_002_TechnicalSupport",
+        "type": "Session"
+      },
+      "relation": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended was sent in Session_002_TechnicalSupport",
+      "type": "agent_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494041"
+    },
+    {
+      "entity0": {
+        "name": "JWT tokens are stateless and better for distributed systems, while cookies work well for traditional web apps",
+        "type": "AgentMessage"
+      },
+      "entity1": {
+        "name": "Session_002_TechnicalSupport",
+        "type": "Session"
+      },
+      "relation": "JWT tokens are stateless and better for distributed systems, while cookies work well for traditional web apps was sent in Session_002_TechnicalSupport",
+      "type": "agent_message_in_session",
+      "created_at": "2025-07-23T16:54:07.494044"
+    },
+    {
+      "entity0": {
+        "name": "React",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "How do I deploy my React app to AWS?",
+        "type": "UserMessage"
+      },
+      "relation": "React was extracted from How do I deploy my React app to AWS?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494049"
+    },
+    {
+      "entity0": {
+        "name": "AWS",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "How do I deploy my React app to AWS?",
+        "type": "UserMessage"
+      },
+      "relation": "AWS was extracted from How do I deploy my React app to AWS?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494053"
+    },
+    {
+      "entity0": {
+        "name": "Deployment",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "How do I deploy my React app to AWS?",
+        "type": "UserMessage"
+      },
+      "relation": "Deployment was extracted from How do I deploy my React app to AWS?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494058"
+    },
+    {
+      "entity0": {
+        "name": "Docker",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "What about using Docker for containerization?",
+        "type": "UserMessage"
+      },
+      "relation": "Docker was extracted from What about using Docker for containerization?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494062"
+    },
+    {
+      "entity0": {
+        "name": "Containerization",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "What about using Docker for containerization?",
+        "type": "UserMessage"
+      },
+      "relation": "Containerization was extracted from What about using Docker for containerization?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494067"
+    },
+    {
+      "entity0": {
+        "name": "CI/CD",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Can you explain the CI/CD pipeline setup?",
+        "type": "UserMessage"
+      },
+      "relation": "CI/CD was extracted from Can you explain the CI/CD pipeline setup?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494072"
+    },
+    {
+      "entity0": {
+        "name": "Authentication",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "I'm having issues with authentication in my Python Flask API",
+        "type": "UserMessage"
+      },
+      "relation": "Authentication was extracted from I'm having issues with authentication in my Python Flask API",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494076"
+    },
+    {
+      "entity0": {
+        "name": "Flask",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "I'm having issues with authentication in my Python Flask API",
+        "type": "UserMessage"
+      },
+      "relation": "Flask was extracted from I'm having issues with authentication in my Python Flask API",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494080"
+    },
+    {
+      "entity0": {
+        "name": "JWT",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Should I use JWT tokens or session cookies?",
+        "type": "UserMessage"
+      },
+      "relation": "JWT was extracted from Should I use JWT tokens or session cookies?",
+      "type": "extracted_from_user_message",
+      "created_at": "2025-07-23T16:54:07.494085"
+    },
+    {
+      "entity0": {
+        "name": "React",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+        "type": "AgentMessage"
+      },
+      "relation": "React is mentioned in To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494091"
+    },
+    {
+      "entity0": {
+        "name": "AWS",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+        "type": "AgentMessage"
+      },
+      "relation": "AWS is mentioned in To deploy a React app to AWS, you can use AWS Amplify or S3 with CloudFront",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494097"
+    },
+    {
+      "entity0": {
+        "name": "Docker",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+        "type": "AgentMessage"
+      },
+      "relation": "Docker is mentioned in Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494103"
+    },
+    {
+      "entity0": {
+        "name": "Containerization",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+        "type": "AgentMessage"
+      },
+      "relation": "Containerization is mentioned in Docker is excellent for containerization. Create a Dockerfile with Node.js base image",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494109"
+    },
+    {
+      "entity0": {
+        "name": "CI/CD",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "For CI/CD, you can use GitHub Actions with AWS CodePipeline integration",
+        "type": "AgentMessage"
+      },
+      "relation": "CI/CD is mentioned in For CI/CD, you can use GitHub Actions with AWS CodePipeline integration",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494115"
+    },
+    {
+      "entity0": {
+        "name": "Flask",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+        "type": "AgentMessage"
+      },
+      "relation": "Flask is mentioned in Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494120"
+    },
+    {
+      "entity0": {
+        "name": "Authentication",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+        "type": "AgentMessage"
+      },
+      "relation": "Authentication is mentioned in Flask authentication can be implemented using Flask-Login or Flask-JWT-Extended",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494126"
+    },
+    {
+      "entity0": {
+        "name": "JWT",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "JWT tokens are stateless and better for distributed systems, while cookies work well for traditional web apps",
+        "type": "AgentMessage"
+      },
+      "relation": "JWT is mentioned in JWT tokens are stateless and better for distributed systems, while cookies work well for traditional web apps",
+      "type": "mentioned_in_agent_message",
+      "created_at": "2025-07-23T16:54:07.494132"
+    },
+    {
+      "entity0": {
+        "name": "React",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Deployment",
+        "type": "SemanticEntity"
+      },
+      "relation": "React relates to Deployment",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494140"
+    },
+    {
+      "entity0": {
+        "name": "AWS",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Deployment",
+        "type": "SemanticEntity"
+      },
+      "relation": "AWS relates to Deployment",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494148"
+    },
+    {
+      "entity0": {
+        "name": "Docker",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Containerization",
+        "type": "SemanticEntity"
+      },
+      "relation": "Docker relates to Containerization",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494156"
+    },
+    {
+      "entity0": {
+        "name": "Docker",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Deployment",
+        "type": "SemanticEntity"
+      },
+      "relation": "Docker relates to Deployment",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494163"
+    },
+    {
+      "entity0": {
+        "name": "CI/CD",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Deployment",
+        "type": "SemanticEntity"
+      },
+      "relation": "CI/CD relates to Deployment",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494170"
+    },
+    {
+      "entity0": {
+        "name": "Flask",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Authentication",
+        "type": "SemanticEntity"
+      },
+      "relation": "Flask relates to Authentication",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494178"
+    },
+    {
+      "entity0": {
+        "name": "JWT",
+        "type": "SemanticEntity"
+      },
+      "entity1": {
+        "name": "Authentication",
+        "type": "SemanticEntity"
+      },
+      "relation": "JWT relates to Authentication",
+      "type": "relates_to",
+      "created_at": "2025-07-23T16:54:07.494185"
+    }
+  ],
+  "metadata": {
+    "total_entities": 68,
+    "total_relations": 34,
+    "last_updated": "2025-07-23T16:54:07.494277"
+  }
+}
