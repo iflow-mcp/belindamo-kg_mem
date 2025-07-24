@@ -99,7 +99,10 @@ class JSONStorage:
                     )
                     kg_mem_instance.relations.append(relation)
             
-            print(f"Loaded {len(kg_mem_instance.entities)} entities and {len(kg_mem_instance.relations)} relations")
+            if not self.storage_path.exists():
+                print(f"No storage file found at {self.storage_path}. Starting from scratch.")
+            else:
+                print(f"Loaded {len(kg_mem_instance.entities)} entities and {len(kg_mem_instance.relations)} relations from {self.storage_path}")
             return True
             
         except Exception as e:
