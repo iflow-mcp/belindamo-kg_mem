@@ -78,7 +78,7 @@ def test_add_unstructured_basic(basic_ontology, monkeypatch, tmp_path):
     """Test adding unstructured text with basic ontology."""
     # Initialize KGMem with mock AI config
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(basic_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(basic_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method to return empty list
     def mock_extract_relations(text_chunk):
@@ -100,7 +100,7 @@ def test_add_unstructured_basic(basic_ontology, monkeypatch, tmp_path):
 def test_add_unstructured_scientific(scientific_ontology, monkeypatch, tmp_path):
     """Test adding unstructured text with scientific ontology."""
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(scientific_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(scientific_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method
     def mock_extract_relations(text_chunk):
@@ -121,7 +121,7 @@ def test_add_unstructured_scientific(scientific_ontology, monkeypatch, tmp_path)
 def test_add_unstructured_empty_text(basic_ontology, monkeypatch, tmp_path):
     """Test adding empty text."""
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(basic_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(basic_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method
     def mock_extract_relations(text_chunk):
@@ -138,7 +138,7 @@ def test_add_unstructured_empty_text(basic_ontology, monkeypatch, tmp_path):
 def test_add_unstructured_complex_text(basic_ontology, monkeypatch, tmp_path):
     """Test adding complex unstructured text."""
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(basic_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(basic_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method
     def mock_extract_relations(text_chunk):
@@ -161,7 +161,7 @@ def test_add_unstructured_complex_text(basic_ontology, monkeypatch, tmp_path):
 def test_add_unstructured_no_matching_entities(basic_ontology, monkeypatch, tmp_path):
     """Test adding text that doesn't match ontology."""
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(basic_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(basic_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method
     def mock_extract_relations(text_chunk):
@@ -181,7 +181,7 @@ def test_add_unstructured_no_matching_entities(basic_ontology, monkeypatch, tmp_
 def test_add_unstructured_updates_kg_state(basic_ontology, monkeypatch, tmp_path):
     """Test that add_unstructured updates KG state."""
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(basic_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(basic_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method
     def mock_extract_relations(text_chunk):
@@ -203,7 +203,7 @@ def test_add_unstructured_updates_kg_state(basic_ontology, monkeypatch, tmp_path
 def test_add_unstructured_with_mock_ai(basic_ontology, monkeypatch, tmp_path):
     """Test add_unstructured with mocked AI extraction."""
     storage_path = tmp_path / "test_kg.json"
-    kg = KGMem(basic_ontology, ai_config={"model": "test-model"}, storage_path=str(storage_path))
+    kg = KGMem(basic_ontology, ai_config={"model": "openai/gpt-4o"}, storage_path=str(storage_path))
     
     # Mock the AI extract_relations method
     mock_relations = []

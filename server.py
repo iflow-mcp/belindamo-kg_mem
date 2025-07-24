@@ -118,7 +118,7 @@ def retrieve_relevant_context(query: str) -> str:
 @mcp.tool
 def save_knowledge_graph() -> str:
   """
-  Manually save the knowledge graph to JSON file.
+  Manually save the knowledge graph to JSON file. This is primarily for debugging purposes.
   """
   global kgmem_instance
   if kgmem_instance is None:
@@ -133,7 +133,7 @@ def save_knowledge_graph() -> str:
 @mcp.tool
 def get_knowledge_stats() -> str:
   """
-  Get statistics about the current knowledge graph.
+  Get statistics about the current knowledge graph. This is primarily for debugging purposes.
   """
   global kgmem_instance
   if kgmem_instance is None:

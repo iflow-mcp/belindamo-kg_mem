@@ -73,9 +73,9 @@ class AI:
 
     # Initialize dspy LM with current settings
     if self.api_key:
-      self.lm = dspy.LM(model=self.model, api_key=self.api_key, temperature=self.temperature, api_base=self.api_base, max_tokens=100000)
+      self.lm = dspy.LM(model=self.model, api_key=self.api_key, temperature=self.temperature, api_base=self.api_base, max_tokens=16384)
     else:
-      self.lm = dspy.LM(model=self.model, temperature=self.temperature, api_base=self.api_base, max_tokens=100000)
+      self.lm = dspy.LM(model=self.model, temperature=self.temperature, api_base=self.api_base, max_tokens=16384)
 
     self.dspy.configure(lm=self.lm)
 
