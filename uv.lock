@@ -1021,8 +1021,8 @@ wheels = [
 ]
 
 [[package]]
-name = "kg-mcp"
-version = "0.1.0"
+name = "kg-mem"
+version = "0.1.1"
 source = { editable = "." }
 dependencies = [
     { name = "dspy" },

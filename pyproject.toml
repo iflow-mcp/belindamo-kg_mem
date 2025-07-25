@@ -1,6 +1,6 @@
 [project]
-name = "kg-mcp"
-version = "0.1.0"
+name = "kg-mem"
+version = "0.1.1"
 description = "A Model Context Protocol (MCP) server that implements a knowledge graph-based memory system with AI-powered entity and relation extraction"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -14,8 +14,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/belindamo/kg_mcp"
-Repository = "https://github.com/belindamo/kg_mcp"
+Homepage = "https://github.com/belindamo/kg_mem"
+Repository = "https://github.com/belindamo/kg_mem"
 
 [project.optional-dependencies]
 dev = [

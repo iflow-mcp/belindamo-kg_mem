@@ -1,4 +1,4 @@
-# Knowledge Graph MCP Server
+# KG Memory: Knowledge Graph Memory with a MCP Server
 
 A Model Context Protocol (MCP) server that implements a **heavily typed** knowledge graph-based memory system with AI-powered entity and relation extraction. Unlike other memory systems that rely on basic summarization or unstructured storage, our system uses **structured ontologies** to extract meaningful, typed relationships from unstructured text.
 
@@ -49,8 +49,8 @@ Start with one of our 6 built-in ontologies:
 
 ```bash
 # Installation
-git clone https://github.com/belindamo/kg_mcp
-cd kg_mcp
+git clone https://github.com/belindamo/kg_mem
+cd kg_mem
 uv pip install -e .
 
 # Basic ontology (Person, Organization, Location, Concept)
@@ -130,7 +130,7 @@ kg.visualize(output_path="./knowledge_graph.html")
 Define domain-specific entity and relationship types:
 
 ```python
-from kg_mcp import EntityType, RelationType, Ontology
+from kg_mem import EntityType, RelationType, Ontology
 
 # Define your entities
 patient_type = EntityType(name="Patient")
@@ -274,7 +274,7 @@ results = kg.retrieve_str("What pull requests are open?")
 The scientific ontology demonstrates the power of heavily typed knowledge graphs for complex domains. Let's walk through a complete research workflow:
 
 ```python
-from kg_mcp import KGMem
+from kg_mem import KGMem
 from ontologies.scientific import scientific_ontology
 
 # Initialize with the scientific ontology
