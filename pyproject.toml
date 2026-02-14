@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-kg_mem = "server:mcp.run"
+kg_mcp = "mcp_server:main"
 
 [project.urls]
 Homepage = "https://github.com/belindamo/kg_mem"
