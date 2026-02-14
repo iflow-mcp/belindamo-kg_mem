@@ -1,5 +1,5 @@
 [project]
-name = "kg-mem"
+name = "iflow-mcp_belindamo-kg_mem"
 version = "0.1.1"
 description = "A Model Context Protocol (MCP) server that implements a knowledge graph-based memory system with AI-powered entity and relation extraction"
 readme = "README.md"
@@ -12,6 +12,9 @@ dependencies = [
     "pytest-asyncio>=1.1.0",
     "pytest>=8.4.1",
 ]
+
+[project.scripts]
+kg_mem = "server:mcp.run"
 
 [project.urls]
 Homepage = "https://github.com/belindamo/kg_mem"
